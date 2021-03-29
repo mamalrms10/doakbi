@@ -1,13 +1,13 @@
-import requests
 from bs4 import BeautifulSoup
 from urllib.error import HTTPError
 from urllib.error import URLError
-import os
 from datetime import date
+import requests
+import os
+
 
 class doakbi():
-    def bing(url):
-        
+    def bing(url):        
         try:
             matn=requests.get(url)    
         except HTTPError as er:
@@ -26,7 +26,6 @@ class doakbi():
             os.makedirs(newpath)
         response=requests.get(url+pardazesh_4)
         with open (newpath+'mamal'+".jpg",'wb')as file:
-            return file.write(response.content)
-            
+            return file.write(response.content)            
    # print(bing('https://www.bing.com'))   
 
