@@ -21,13 +21,13 @@ class doakbi():
          global date    
          today = date.today()
          date = today.strftime("%b-%d-%Y")
-         my = os.path.sep+ "mamalkhan" + os.path.sep + date
+         my = os.getcwd() + '/mamalkhan'
          newpath = my 
          print(my)
          if not os.path.exists(newpath):
             os.makedirs(newpath)
          response=requests.get(url+pardazesh_4)
-         with open (newpath+".jpg",'wb')as file:
+         with open (newpath + "/{0}".format(date) + ".jpg",'wb')as file:
             return file.write(response.content)
 #print(bing('https://www.bing.com'))   
 
