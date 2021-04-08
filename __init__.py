@@ -1,1 +1,1 @@
-from ssss import bing_download_image 
+from pizza import bing_download_image 
