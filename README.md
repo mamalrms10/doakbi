@@ -7,10 +7,10 @@ This program can download the photo of the front page of Bing site, by crawling 
 -------------------------------------------------------
 ## Demo:
 - When you run the code on your terminal you will get something like this:
-![](demo1.png)
+- ![](demo1.png)
 - A new folder gets created where your file is kept:
-![](demo2.png)
+- ![](demo2.png)
 - Open that Folder to find the Picture:
-![](demo3.png)
+- ![](demo3.png)
 -------------------------------------------------------
 
