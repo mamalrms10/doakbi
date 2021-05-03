@@ -7,7 +7,7 @@ setup(
     url='https://github.com/ahmadrezasalar/doakbi.git',
     author='ahmadrezasalar',
     author_email='mamalrms1906@gmail.com',
-    license='MIT',
+    license='unlicense',
     packages=['doakbi'],
     zip_safe=False
     
