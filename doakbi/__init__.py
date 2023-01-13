@@ -34,3 +34,4 @@ class bing_download_image:
 P1=bing_download_image('https://www.bing.com' )
 print(P1.myfunc( ))
 
+# ha ha very funny...
